@@ -16,6 +16,11 @@ class Words {
      
       static String[] TypedW = {};
       static String[] RandW = new String[10];
+    
+    SpeedTyping()
+    {
+      super();
+    }                                               //super keyword calls constructor of speedtyping class
    static void  Start(int n) throws InterruptedException                       
    
   {                                                        //Thrown when a thread is waiting, and the thread is interruped
@@ -24,8 +29,7 @@ class Words {
     TimeUnit.SECONDS.sleep(1);
    
   }
-  SpeedTyping(){
-    super();}                                               //super keyword calls constructor of speedtyping class
+  
   static void  Start(String n) throws InterruptedException
   {
 
